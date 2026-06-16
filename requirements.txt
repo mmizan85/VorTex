@@ -1,0 +1,10 @@
+# Vortex v2 — Zero-Knowledge File Vault
+# pip install -r requirements.txt
+
+click>=8.1.0
+cryptography>=41.0.0
+rich>=13.7.0
+InquirerPy>=0.3.4
+
+# Optional: alternative interactive selector backend
+# pick>=2.0.0
