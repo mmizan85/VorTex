@@ -32,12 +32,12 @@
 <p align="center">
   <img src="assets/screenshots/cli_status_dashboard.png" alt="Vortex Status Dashboard" width="85%" />
 </p>
-
+<!--
 ### 🛡️ Secure OS Global Registry Auto-Recovery
 <p align="center">
   <img src="assets/screenshots/auto_recovery_demostration.png" alt="Global Recovery Mechanism" width="85%" />
 </p>
-
+-->
 ---
 
 ## ✨ Features & Architecture Highlights
@@ -60,7 +60,7 @@ Ensure you have **Python 3.8 or later** installed on your system terminal framew
 
 ```bash
 # 1. Clone the repository framework
-git clone https://github.com/mmizan85/vortex-vault.git
+git clone https://github.com/mmizan85/VorTex.git
 cd VorTex
 
 # 2. Deploy core package dependencies
@@ -93,23 +93,9 @@ Vortex Vault implements a highly explicit, clear, and clean terminal matrix form
 
 | Target Command | Sub-Parameters | Operational Protocol & System Actions | Execution Sample Pattern |
 | --- | --- | --- | --- |
-| **`init`** | `None` <br>
-
-<br> `-s, --selective` <br>
-
-<br> `-t, --timeout <min>` | Mounts and initializes a completely fresh, isolated zero-knowledge cryptographic vault configuration framework in your active working path directory. | `vortex init`<br>
-
-<br>`vortex init -s`<br>
-
-<br>`vortex init -t 15` |
-| **`add`** | `<paths...>` <br>
-
-<br> `-s, --selective` | Appends specific raw local file paths or deep directories into the local tracking registry manifest files database. | `vortex add payroll.db`<br>
-
-<br>`vortex add -s` |
-| **`lock`** | `[target_path]` | Runs an atomic, secure AES-256-GCM sweep over tracked items. Overwrites the plaintext source assets with zeroes before erasing them safely from physical sectors. | `vortex lock`<br>
-
-<br>`vortex lock secure_media/` |
+| **`init`** | `-s, --selective` <br>`-t, --timeout <min>` | Mounts and initializes a completely fresh, isolated zero-knowledge cryptographic vault configuration framework in your active working path directory. | `vortex init`<br>`vortex init -s`<br>`vortex init -t 15` |
+| **`add`** | `<paths...>`<br> `-s, --selective` | Appends specific raw local file paths or deep directories into the local tracking registry manifest files database. | `vortex add payroll.db`<br>`vortex add -s` |
+| **`lock`** | `[target_path]` | Runs an atomic, secure AES-256-GCM sweep over tracked items. Overwrites the plaintext source assets with zeroes before erasing them safely from physical sectors. | `vortex lock`<br>`vortex lock secure_media/` |
 | **`unlock`** | `None` | Evaluates master authentication signatures, validates size integrity blocks, and entirely decrypts targets back to normal plaintext storage state. | `vortex unlock` |
 | **`status`** | `None` | Builds an interactive visual reporting matrix tracking live vs scrambled objects, along with active auto-lock time counts. | `vortex status` |
 | **`untrack`** | `<target_path>` | Decrypts the targeted file context, isolates it completely from the underlying ledger, and pushes it out to normal unmanaged storage. | `vortex untrack assets/` |
