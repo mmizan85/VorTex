@@ -38,6 +38,7 @@
   <img src="assets/screenshots/auto_recovery_demostration.png" alt="Global Recovery Mechanism" width="85%" />
 </p>
 -->
+
 ---
 
 ## ✨ Features & Architecture Highlights
