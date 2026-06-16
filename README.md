@@ -1,7 +1,7 @@
 
 
 
-# 🔐 Vortex Vault (v2.0.0)
+# 🔐 Vortex Vault
 
 <p align="center">
   <img src="vortex_icon.ico" alt="Vortex Vault Logo" width="120px" height="120px" />
